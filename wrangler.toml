@@ -1,4 +1,4 @@
-name = "sub-worker"
+name = 'sub'
 main = "worker-ho.js"
 compatibility_date = "2025-06-21"
 
@@ -6,3 +6,11 @@ compatibility_date = "2025-06-21"
 TOKEN = "usPCC5pPIXuLzsL"
 SUBNAME = "Hotinosin-Sub"
 SUBCONFIG = "https://raw.githubusercontent.com/Hotinosin/ACL4SSR/refs/heads/master/Clash/config/ACL4SSR_Online_Mini_MultiCountry-TW.ini"
+
+[[kv_namespaces]]
+# binding: 这是在 Worker 代码中将要使用的变量名，必须是合法的JS变量名
+binding = "KV" # <--- 修改这里
+
+# 下面这两行需要是您名为 "aa" 的 KV 命名空间的真实 ID
+# 请从上一步 list 命令的输出中复制并粘贴
+id = "d531d5a1eab14d4fa2955f99583c96b5"
