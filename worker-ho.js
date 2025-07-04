@@ -646,7 +646,7 @@ a:hover {
   box-shadow: 0 1px 4px 0 rgba(0,0,0,0.03);
   text-align: center;
   min-width: 220px;
-  flex: 1 1 220px;
+  flex: 1 1 30%;
   box-sizing: border-box;
 }
 .notice-content {
