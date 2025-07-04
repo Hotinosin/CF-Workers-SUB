@@ -652,7 +652,6 @@ a:hover {
 .qrcode-block div[id^="qrcode_"],
 .qrcode-block div[id^="guest_"] {
   margin-top: 12px;
-  min-height: 220px; /* Reserve space to prevent layout shift */
   display: flex;
   justify-content: center;
 }
