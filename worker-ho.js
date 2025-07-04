@@ -649,6 +649,13 @@ a:hover {
   flex: 1 1 30%;
   box-sizing: border-box;
 }
+.qrcode-block div[id^="qrcode_"],
+.qrcode-block div[id^="guest_"] {
+  margin-top: 12px;
+  min-height: 220px; /* Reserve space to prevent layout shift */
+  display: flex;
+  justify-content: center;
+}
 .notice-content {
   background: #f1f5f9;
   border-radius: 8px;
